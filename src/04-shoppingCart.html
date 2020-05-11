@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./icon/iconfont.css">
+    <link rel="stylesheet" href="./css/04-shoppingCart.css">
+</head>
+<body>
+    <!-- act -->
+    <div id="act">
+        <div class="act-wrap con-wrap">
+            <a href="07-activity.html" class="act_imgBox">
+                <img src="./images/show.jpg" alt="">
+            </a>
+        </div>
+    </div>
+    <!-- nav -->
+    <div id="nav">
+        <div class="nav-wrap con-wrap" id="top">
+            <h4>
+                <span>考拉欢迎你！</span>
+                <a href="05-login.html">登录</a>
+                <a href="06-reg.html">免费注册</a>
+                <a href="#">手机考拉</a>
+            </h4>
+            <h4>
+                <a href="#">每日签到</a>
+                <a href="#">我的订单</a>
+                <div class="aBox">
+                    <a href="#" class="aHover">个人中心<i class="iconfont  icon-jiantou"></i></a>
+                    <ul class="nav_list">
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aBox">
+                    <a href="#" class="aHover">客户服务<i class="iconfont  icon-jiantou"></i></a>
+                    <ul class="nav_list">
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aBox">
+                    <a href="#" class="aHover">充值中心<i class="iconfont  icon-jiantou"></i></a>
+                    <ul class="nav_list">
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aBox">
+                    <a href="#" class="aHover">消费者权益<i class="iconfont  icon-jiantou"></i></a>
+                    <ul class="nav_list">
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="aBox">
+                    <a href="#" class="aHover">更多<i class="iconfont  icon-jiantou"></i></a>
+                    <ul class="nav_list">
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                        <li class="nav_lsbox">
+                            <a href="#">我的优惠券</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- <a href="#" class="aHover">客户服务<i class="iconfont  icon-jiantou"></i></a>
+                <a href="#" class="aHover">充值中心<i class="iconfont  icon-jiantou"></i></a>
+                <a href="#" class="aHover">消费者权益<i class="iconfont  icon-jiantou"></i></a>
+                <a href="#" class="aHover">更多</a> -->
+                <a href="#">视频内容</a>
+            </h4>
+        </div>
+    </div>
+    <!-- toper -->
+    <div class="toper-wrap con-wrap">
+        <h4 class="toper_toperBox">
+            <a href="01-index.html" class="toper_imgBox">
+                <img src="./images/index/logo_03.jpg" alt="">
+            </a>
+        </h4>
+        <h4 class="toper_bottomBox">
+            <div class="toper_b1">
+                <span>我的购物车</span>
+                <span>1</span>
+            </div>
+            <div class="toper_b2">
+                <p>配送至</p>
+                <div>
+                    <input type="text" placeholder="北京/西城区">
+                    <i class="iconfont icon-jiantou"></i>
+                </div>
+            </div>
+        </h4>
+    </div>
+    <!-- shopping -->
+    <div class="shopping-wrap con-wrap clear_fix">
+        <div class="shopping_L1">
+            <div>
+                <input type="checkbox" class="shopping_check"><span>全选</span>
+                <em>商品信息</em>
+            </div>
+            <div>
+                <em>单价（元）</em>
+                <em>数量</em>
+                <em>金额（元）</em>
+                <em>操作</em>
+            </div>
+        </div>
+        <div class="shopping_L2">
+            <input type="checkbox" class="shopping_check">
+            <span>自营</span>
+            <span>自营保税仓</span>
+        </div>
+        <dl class="shopping_L3"> 
+                <div class="shopping_con1">
+                    <strong>满额换购</strong>
+                    <span>再购</span>
+                    <span style="color:#ff2337">99</span>
+                    <span>元&nbsp;&nbsp;即可参加满99元 换购活动 </span>
+                    <a href="#">查看换购活动</a>
+                    <a href="#">去凑单&nbsp;&gt;</a>
+                </div>
+                <div class="shopping_con2">
+                    <div>
+                        <input type="checkbox" class="shopping_check">
+                        <a href="#">
+                            <img src="./images/goods/show01.jpg" alt="">
+                        </a>
+                        <div>
+                            <a href="#">【眼膜中的爱马仕 眼部小熨斗】Spa treatment HAS蛇毒保湿眼膜60片</a>
+                            <p>支持30天无忧退货</p>
+                            <a href="#">支持三期免息</a>
+                            <a href="#">包税</a>
+                        </div>
+                    </div>
+                    <div class="shopping_pir">
+                        <p>
+                            <!-- <em>309</em> -->
+                            <!-- <span>245</span> -->
+                            245
+                        </p>
+                        <div>
+                            <a href="#">—</a>
+                            <input type="text" value="1">
+                            <a href="#">+</a>
+                        </div>
+                        <p>245</p>
+                        <div>
+                            <a href="#">删除</a>
+                            <a href="#">移入我的收藏</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="shopping_con3">
+                    <em>加价购</em>
+                    <span>可低价换购热销产品</span>
+                    <a href="#">点击换购</a>
+                </div>
+                <div class="shopping_con4">
+                    <div>
+                        <em>活动优惠:</em>
+                        <span>-￥0</span>
+                        <em>商品应付总计:</em>
+                        <span>￥0</span>
+                        <em>预计税费:</em>
+                        <span>￥0</span>
+                    </div>
+                </div>
+        </dl>
+        <div class="count">
+            <div class="count_lt">
+                <input type="checkbox" class="shopping_check">
+                <span>全选</span>
+                <span>删除选中商品</span>
+            </div>
+            <div class="count_gt">
+                <div class="count_gt01">
+                    <p class="count_gt01-1">
+                        <em>
+                            <span> 已选商品</span> &nbsp;<strong>0</strong>件  
+                        </em>
+                        <em>
+                            <span>总价（不含运费）：</span><strong>￥0</strong>
+                        </em>
+                    </p>
+                    <p  class="count_gt01-2">
+                        <em>活动优惠:</em>
+                        <span>-￥0</span>
+                        <em>商品应付总计:</em>
+                        <span>￥0</span>
+                        <em>预计税费:</em>
+                        <span>￥0</span>
+                    </p>
+                </div>
+                <a href="#" class="count_gt02">
+                    去结算
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- case -->
+    <div class="case-wrap con-wrap show_con">
+        <h3>
+            <em>最佳搭配</em>
+            <span>根据你的购物车商品推荐</span>
+        </h3>
+        <li class="show_goods">
+            <a href="#">
+                <img src="./images/babyGoods.jpg" alt="">
+            </a>
+            <div class="show_gText">
+                <h3>
+                    <em>￥95</em>
+                    <span>￥159</span>
+                </h3>
+                <a class="textUn" href="#">CALIFORNIA BABY 加州宝宝金盏花乳液251ml/8.5OZ</a>
+                <p>
+                    <span>3期免息</span>
+                    <span>自营</span>
+                    <span>津贴*每满300减30</span>
+                </p>
+                <p>
+                    <i class="iconfont icon-weixin"></i>
+                    <span>7816</span>
+                    <span>美国</span>
+                </p>
+                <p>考拉海购自营</p>
+            </div>
+        </li>
+        <li class="show_goods">
+            <a href="#">
+                <img src="./images/babyGoods.jpg" alt="">
+            </a>
+            <div class="show_gText">
+                <h3>
+                    <em>￥95</em>
+                    <span>￥159</span>
+                </h3>
+                <a class="textUn" href="#">CALIFORNIA BABY 加州宝宝金盏花乳液251ml/8.5OZ</a>
+                <p>
+                    <span>3期免息</span>
+                    <span>自营</span>
+                    <span>津贴*每满300减30</span>
+                </p>
+                <p>
+                    <i class="iconfont icon-weixin"></i>
+                    <span>7816</span>
+                    <span>美国</span>
+                </p>
+                <p>考拉海购自营</p>
+            </div>
+        </li>
+        <li class="show_goods">
+            <a href="#">
+                <img src="./images/babyGoods.jpg" alt="">
+            </a>
+            <div class="show_gText">
+                <h3>
+                    <em>￥95</em>
+                    <span>￥159</span>
+                </h3>
+                <a class="textUn" href="#">CALIFORNIA BABY 加州宝宝金盏花乳液251ml/8.5OZ</a>
+                <p>
+                    <span>3期免息</span>
+                    <span>自营</span>
+                    <span>津贴*每满300减30</span>
+                </p>
+                <p>
+                    <i class="iconfont icon-weixin"></i>
+                    <span>7816</span>
+                    <span>美国</span>
+                </p>
+                <p>考拉海购自营</p>
+            </div>
+        </li>
+        <li class="show_goods">
+            <a href="#">
+                <img src="./images/babyGoods.jpg" alt="">
+            </a>
+            <div class="show_gText">
+                <h3>
+                    <em>￥95</em>
+                    <span>￥159</span>
+                </h3>
+                <a class="textUn" href="#">CALIFORNIA BABY 加州宝宝金盏花乳液251ml/8.5OZ</a>
+                <p>
+                    <span>3期免息</span>
+                    <span>自营</span>
+                    <span>津贴*每满300减30</span>
+                </p>
+                <p>
+                    <i class="iconfont icon-weixin"></i>
+                    <span>7816</span>
+                    <span>美国</span>
+                </p>
+                <p>考拉海购自营</p>
+            </div>
+        </li>
+    </div>
+    <!-- case -->
+    <div class="case-wrap con-wrap show_con">
+        <h3>
+            <em>最佳搭配</em>
+            <span>根据你的购物车商品推荐</span>
+        </h3>
+        <li class="show_goods">
+            <a href="#">
+                <img src="./images/babyGoods.jpg" alt="">
+            </a>
+            <div class="show_gText">
+                <h3>
+                    <em>￥95</em>
+                    <span>￥159</span>
+                </h3>
+                <a class="textUn" href="#">CALIFORNIA BABY 加州宝宝金盏花乳液251ml/8.5OZ</a>
+                <p>
+                    <span>3期免息</span>
+                    <span>自营</span>
+                    <span>津贴*每满300减30</span>
+                </p>
+                <p>
+                    <i class="iconfont icon-weixin"></i>
+                    <span>7816</span>
+                    <span>美国</span>
+                </p>
+                <p>考拉海购自营</p>
+            </div>
+        </li>
+        <li class="show_goods">
+            <a href="#">
+                <img src="./images/babyGoods.jpg" alt="">
+            </a>
+            <div class="show_gText">
+                <h3>
+                    <em>￥95</em>
+                    <span>￥159</span>
+                </h3>
+                <a class="textUn" href="#">CALIFORNIA BABY 加州宝宝金盏花乳液251ml/8.5OZ</a>
+                <p>
+                    <span>3期免息</span>
+                    <span>自营</span>
+                    <span>津贴*每满300减30</span>
+                </p>
+                <p>
+                    <i class="iconfont icon-weixin"></i>
+                    <span>7816</span>
+                    <span>美国</span>
+                </p>
+                <p>考拉海购自营</p>
+            </div>
+        </li>
+        <li class="show_goods">
+            <a href="#">
+                <img src="./images/babyGoods.jpg" alt="">
+            </a>
+            <div class="show_gText">
+                <h3>
+                    <em>￥95</em>
+                    <span>￥159</span>
+                </h3>
+                <a class="textUn" href="#">CALIFORNIA BABY 加州宝宝金盏花乳液251ml/8.5OZ</a>
+                <p>
+                    <span>3期免息</span>
+                    <span>自营</span>
+                    <span>津贴*每满300减30</span>
+                </p>
+                <p>
+                    <i class="iconfont icon-weixin"></i>
+                    <span>7816</span>
+                    <span>美国</span>
+                </p>
+                <p>考拉海购自营</p>
+            </div>
+        </li>
+        <li class="show_goods">
+            <a href="#">
+                <img src="./images/babyGoods.jpg" alt="">
+            </a>
+            <div class="show_gText">
+                <h3>
+                    <em>￥95</em>
+                    <span>￥159</span>
+                </h3>
+                <a class="textUn" href="#">CALIFORNIA BABY 加州宝宝金盏花乳液251ml/8.5OZ</a>
+                <p>
+                    <span>3期免息</span>
+                    <span>自营</span>
+                    <span>津贴*每满300减30</span>
+                </p>
+                <p>
+                    <i class="iconfont icon-weixin"></i>
+                    <span>7816</span>
+                    <span>美国</span>
+                </p>
+                <p>考拉海购自营</p>
+            </div>
+        </li>
+    </div>
+    <!-- whiteSpace -->
+    <div id="whiteSpace"></div>
+    <!-- links -->
+    <article class="links-wrap con-wrap">
+        <div class="links_topBox">
+            <ul>
+                <li>
+                    <div>正</div>
+                    <span>正品承诺</span>
+                    <p>正品保障，假一罚十</p>
+                </li>
+                <li>
+                    <div>正</div>
+                    <span>正品承诺</span>
+                    <p>正品保障，假一罚十</p>
+                </li>
+                <li>
+                    <div>正</div>
+                    <span>正品承诺</span>
+                    <p>正品保障，假一罚十</p>
+                </li>
+                <li>
+                    <div>正</div>
+                    <span>正品承诺</span>
+                    <p>正品保障，假一罚十</p>
+                </li>
+            </ul>
+        </div>
+        <div class="links_bottomBox">
+            <div class="links_logo">
+                <a href="#">
+                    <img src="./images/index/footerLogo_03.jpg" alt="">
+                </a>
+                <div>
+                    <span>关注我们</span>
+                    <a href="#"><i class="iconfont icon-weixin"></i></a>
+                    <a href="#"><i class="iconfont icon-weixin"></i></a>
+                </div>
+            </div>
+            <div class="links_we">
+                <ul>
+                    <h3>考拉保障</h3>
+                    <li><a href="#">假一罚十</a></li>
+                    <li><a href="#">廉政举报</a></li>
+                </ul>
+                <ul>
+                    <h3>考拉保障</h3>
+                    <li><a href="#">假一罚十</a></li>
+                    <li><a href="#">廉政举报</a></li>
+                    <li><a href="#">假一罚十</a></li>
+                    <li><a href="#">廉政举报</a></li>
+                    <li><a href="#">假一罚十</a></li>
+                    <li><a href="#">廉政举报</a></li>
+                </ul>
+                <ul>
+                    <h3>考拉保障</h3>
+                    <li><a href="#">假一罚十</a></li>
+                    <li><a href="#">廉政举报</a></li>
+                </ul>
+                <ul>
+                    <h3>考拉保障</h3>
+                    <li><a href="#">假一罚十</a></li>
+                    <li><a href="#">廉政举报</a></li>
+                    <li><a href="#">假一罚十</a></li>
+                    <li><a href="#">廉政举报</a></li>
+
+                </ul>
+                <ul>
+                    <h3>考拉保障</h3>
+                    <li><a href="#">假一罚十</a></li>
+                    <li><a href="#">廉政举报</a></li>
+                </ul>
+                <ul>
+                    <h3>考拉保障</h3>
+                    <li><a href="#">假一罚十</a></li>
+                    <li><a href="#">廉政举报</a></li>
+                </ul>
+            </div>
+            <a href="#" class="links_code">
+                <img src="./images/index/二维码.png" alt="">
+                <p>扫描下载手机版</p>
+            </a>
+        </div>
+    </article>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="footer-wrap con-wrap">
+            <p>隐私政策.考拉海购</p>
+            <p>
+                <em>增值业务许可证：浙B2-20160288</em>
+                <em>自经营者信息</em>
+                <em>（浙）网械备案平台备字[2018]</em>
+            </p>
+            <p>
+                <em>浙公网安备</em>
+                <em>阿里巴巴版权所有&copy;2003-2020</em>
+                <em>互联网药品信息查询服务证书编号（浙）-2017-0027</em>
+                <em>浙icp备16011229号</em>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

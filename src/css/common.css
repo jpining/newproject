@@ -1,0 +1,661 @@
+@charset "utf-8";
+
+/* 公共样式 */
+
+.con-wrap {
+    width: 1096px;
+    margin: 0 auto;
+}
+
+a {
+    display: block;
+}
+
+
+/* act */
+#act{
+    overflow: hidden;
+    position: relative;
+}
+.act-wrap{
+    height: 80px;
+}
+.act_imgBox{
+    width: 1920px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+}
+.act img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* nav */
+
+#nav {
+    background: #000;
+}
+
+.nav-wrap {
+    height: 30px;
+}
+
+.nav-wrap h4 {
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    color: #999;
+}
+
+.nav-wrap h4:first-child {
+    width: 300px;
+    float: left;
+}
+
+.nav-wrap h4:last-child {
+    width: 700px;
+    float: right;
+}
+
+.nav-wrap h4>a {
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    padding-left: 8px;
+    height: 30px;
+    position: relative;
+    padding-right: 20px;
+}
+.aBox>a{
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    padding-left: 15px;
+    height: 30px;
+    position: relative;
+    padding-right: 27px;
+}
+
+.nav-wrap a .icon-jiantou {
+    font-size: 10px;
+    color: #999;
+    line-height: 30px;
+    position: absolute;
+    margin-left: 2px;
+    transform-origin: center;
+    transition: .3s;
+    display: inline;
+}
+
+.nav-wrap h4> a:hover {
+    color: #fff;
+}
+
+.aBox{
+    display: inline-block;
+    position: relative;
+}
+.aBox:hover .nav_list{
+    display: block;
+    transition: 1s;
+}
+
+.nav_list{
+    display: none;
+    width: 117px;
+    padding: 4px 15px  12px 14px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+    position: absolute;
+    top: 30px;
+    left: -1px;
+    z-index: 5;
+}
+.nav_lsbox{
+    width: 88px;
+    height: 28px;
+}
+.nav_lsbox a{
+    font-size: 12px;
+    color: #666;
+    line-height: 28px;
+}
+.nav_lsbox a:hover{
+    color: #ff2337;
+}
+
+
+.nav-wrap .aHover:hover {
+    background: #fff;
+    color: #ff1025;
+}
+
+.aHover:hover .icon-jiantou {
+    color: #ff1025;
+    transform: rotate(180deg);
+    transition: .3s;
+}
+
+
+/* logo */
+
+#logo {
+    border-bottom: 1px solid #ccc;
+}
+
+.logo-wrap {
+    min-height: 142px;
+}
+
+.logo_topBox {
+    width: 100%;
+    height: 100px;
+}
+
+.logo_bottomBox {
+    width: 100%;
+    height: 41px;
+    position: relative;
+}
+
+.logo_topBox>a:first-child {
+    width: 209;
+    height: 64px;
+    margin-top: 20px;
+    float: left;
+}
+
+.logo_topBox>a:first>img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo_topBox>div {
+    width: 512px;
+    height: 36px;
+    border: 2px solid #ff2337;
+    border-radius: 20px;
+    float: left;
+    margin-left: 134px;
+    margin-top: 34px;
+    position: relative;
+}
+
+.logo_topBox>div>.iconfont {
+    width: 30px;
+    height: 100%;
+    font-size: 22px;
+    color: #ddd;
+    float: left;
+    padding: 3px;
+}
+
+.logo_topBox input {
+    width: 411px;
+    height: 24px;
+    font-family: initial;
+    float: left;
+    border: none;
+    margin-top: 4px;
+}
+
+.logo_topBox>div>a {
+    display: block;
+    width: 60px;
+    height: 36px;
+    background: #ff2337;
+    border-radius: 18px;
+    position: absolute;
+    right: -1px;
+    top: -2px;
+}
+
+.logo_topBox>div>a>.iconfont {
+    font-size: 24px;
+    color: #fff;
+    margin-left: 20px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.logo_topBox>a:nth-of-type(2) {
+    width: 110px;
+    height: 36px;
+    border-radius: 18px;
+    border: 2px solid #ff2337;
+    float: left;
+    margin: 0 50px;
+    margin-top: 34px;
+}
+
+.logo_topBox>a>.iconfont {
+    line-height: 32px;
+    font-size: 24px;
+    margin-left: 15px;
+    float: left;
+    color: #ff2337;
+}
+
+.logo_topBox>a>span {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-left: 5px;
+    float: left;
+    margin-top: 5px;
+}
+
+.logo_bottomBox>div:nth-of-type(1) {
+    width: 164px;
+    height: 100%;
+    background: #ff2337;
+    float: left;
+    font-size: 12px;
+    color: white;
+    border-bottom: 1px solid #ff5160;
+    margin-right: 25px;
+    position: relative;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+.logo_bottomBox>div>ul {
+    width: 164px;
+    height: 460px;
+    position: absolute;
+    top: 41px;
+    left: 0;
+    z-index: 20;
+}
+
+.logo_bottomBox>div li {
+    width: 164px;
+    height: 42px;
+    background: #ff2337;
+    font-size: 12px;
+    color: white;
+    border-bottom: 1px solid #ff5160;
+    position: relative;
+}
+
+.logo_bottomBox>div>ul>li>a {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    overflow: hidden;
+}
+
+.logo_bottomBox>div>ul>li:hover {
+    background: #fff;
+    color: #ff2337;
+}
+
+.logo_bottomBox>div>ul>li:hover p {
+    color: #ff2337;
+}
+
+.logo_bottomBox>div li .iconfont:nth-of-type(1) {
+    font-size: 14px;
+    line-height: 41px;
+    text-align: left;
+    padding-left: 15px;
+    float: left;
+    color: #ffbfc1;
+    overflow: hidden;
+}
+
+.logo_bottomBox>div li p {
+    font-size: 14px;
+    font-weight: 700;
+    padding-left: 24px;
+    line-height: 41px;
+    display: block;
+    float: left;
+}
+
+.logo_bottomBox>div li .iconfont:nth-of-type(2) {
+    font-size: 14px;
+    line-height: 41px;
+    text-align: right;
+    padding-right: 15px;
+    float: right;
+    color: #ffbfc1;
+    overflow: hidden;
+}
+
+.logo_bottomBox>div>.iconfont {
+    font-size: 14px;
+    line-height: 41px;
+    display: block;
+    float: left;
+    margin-left: 15px;
+    color: #ddd;
+}
+
+.logo_bottomBox>div>p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 24px;
+    line-height: 41px;
+    display: block;
+    float: left;
+}
+
+.logo_bottomBox>.logo_bottomgt {
+    overflow: hidden;
+}
+
+.logo_bottomBox>.logo_bottomgt>a {
+    padding: 10px 20px;
+    color: #333;
+    font-size: 14px;
+    float: left;
+    font-weight: 700;
+    overflow: hidden;
+}
+
+#logo_colorRed {
+    color: #ff2337;
+}
+
+.logo_bottomBox>.logo_bottomgt>a:hover {
+    color: #ff2337;
+}
+
+.logo_bottomBox>div>ul>li:hover .subBox{
+    display: block;
+}
+.subBox{
+    position: absolute;
+    top: -1px;
+    left: 165px;
+    width: 950px;
+    height: 450px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background: #fff;
+    display: none;
+}
+.subBox_lt{
+    width: 687px;
+    float: left;
+}
+.subBox_title{
+    height: 120px;
+    padding: 20px;
+}
+.subBox_title h3{
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    width: 350px;
+    border-bottom: 1px solid #ccc;
+    line-height: 60px;
+    height: 60px;
+}
+.subBox_gt{
+    width: 262px;
+    float: left;
+    background: #ddd;
+    padding: 8px;
+}
+.subBox_gt a{
+    width: 120px;
+    height: 120px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    float: left;
+}
+.subBox_gt a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/* 侧边栏 */
+
+
+
+.addRight {
+    width: 62px;
+    height: 273px;
+    border: 1px solid #e9e9e9;
+    position: absolute;
+    top: 0;
+    right: -80px;
+}
+
+.addRight a {
+    width: 62px;
+    height: 62px;
+    border-bottom: 1px solid #e9e9e9;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+
+.addRight a:hover {
+    color: #ff2337;
+}
+
+.addRight a:hover .iconfont {
+    color: #ff2337;
+}
+
+.addRight a .iconfont {
+    font-size: 30px;
+    color: #9f9f9f;
+    display: block;
+    margin: 6px 0;
+}
+
+.addRight p {
+    display: block;
+    width: 100%;
+    height: 12px;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+
+
+
+
+/* whiteSpace */
+
+#whiteSpace {
+    background: #f0f0f0;
+    height: 80px;
+}
+
+
+/* links */
+
+.links-wrap {
+    height: 410px;
+}
+
+.links_topBox {
+    width: 100%;
+    height: 146px;
+    border-bottom: 1px solid #e9e9e9;
+    padding-top: 50px;
+}
+
+.links_topBox>ul {
+    width: 100%;
+    height: 48px;
+}
+
+.links_topBox>ul>li {
+    width: 230px;
+    height: 48px;
+    margin-left: 40px;
+    float: left;
+}
+
+.links_topBox ul li div {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: 2px solid #d8d8d8;
+    font-size: 18px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 800;
+    color: #333;
+    margin-right: 8px;
+    float: left;
+}
+
+.links_topBox ul li span {
+    font-size: 18px;
+    font-weight: 800;
+    color: #333;
+    line-height: 22px;
+}
+
+.links_topBox ul li p {
+    font-size: 12px;
+    font-weight: 500;
+    color: #333;
+    line-height: 38px;
+}
+
+.links_bottomBox {
+    width: 100%;
+    height: 264px;
+    padding: 44px;
+}
+
+.links_logo {
+    width: 210px;
+    height: 98px;
+    margin-right: 72px;
+    float: left;
+    color: #333;
+}
+
+.links_logo img {
+    width: 210px;
+    height: 44px;
+}
+
+.links_logo div {
+    width: 100%;
+    margin-top: 20px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.links_logo span {
+    float: left;
+    font-size: 12px;
+    line-height: 32px;
+    margin-right: 3px;
+}
+
+.links_logo a {
+    color: #333;
+}
+
+.links_logo div a {
+    color: #1dba29;
+    float: left;
+    margin-left: 10px;
+}
+
+.links_logo .iconfont {
+    font-size: 32px;
+    line-height: 1em;
+    text-align: center;
+}
+
+.links_we {
+    width: 580px;
+    height: 176px;
+    float: left;
+}
+
+.links_we ul {
+    height: 100%;
+    margin-right: 28px;
+    float: left;
+}
+
+.links_we h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.links_we li {
+    height: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 18px;
+}
+
+.links_we li a {
+    color: #333;
+}
+
+.links_we ul li:hover a {
+    color: #ff2337;
+    text-decoration: underline;
+}
+
+.links_code {
+    width: 110px;
+    height: 133px;
+    margin-left: 5px;
+    float: left;
+}
+
+.links_code img {
+    width: 100%;
+    height: 108px;
+}
+
+.links_code p {
+    width: 100%;
+    height: 25px;
+    font-size: 12px;
+    color: #333;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+/* footer */
+
+#footer {
+    background: #333;
+}
+
+.footer-wrap {
+    height: 153px;
+    padding-top: 27px;
+}
+
+.footer-wrap p {
+    text-align: center;
+    line-height: 12px;
+    margin-bottom: 14px;
+    color: #c2c2c2;
+    font-size: 12px;
+}
+
+.footer-wrap p em {
+    margin-right: 24px;
+}
