@@ -116,10 +116,12 @@
                 </a>
                 <div>
                     <i class="iconfont icon-icon-"></i>
-                    <input type="text" placeholder="阿迪达斯">
-                    <a href="03-bady.html">
+                    <input type="text" placeholder="阿迪达斯" id="logoSearch">
+                    <a href="03-baby.html">
                         <i class="iconfont icon-icon-"></i>
                     </a>
+                    <ul id="oUl">
+                    </ul>
                 </div>
                 <a href="04-shoppingCart.html">
                     <i class="iconfont icon-gouwuche"></i>
@@ -160,7 +162,7 @@
                             </div>
                         </li>
                         <li>
-                            <a href="03-bady.html">
+                            <a href="03-baby.html">
                                 <i class="iconfont icon-kouhong"></i>
                                 <p>母婴儿童</p>
                                 <i class="iconfont icon-iconfonticonfonti2copycopy"></i>
@@ -245,14 +247,15 @@
     <!-- banner -->
     <div id="banner">
         <div class="banner-wrap con-wrap">
-            <a href="#" class="banner_imgBox">
+            <div  class="banner_imgBox" id="bannerImgBox">
                 <img src="./images/index/banner02.jpg" alt="">
                 <img src="./images/index/IndexBanner.jpg" alt="">
-            </a>
-            <span>&lt;</span><span>&gt;</span>
-                    <ul>
-                        <li></li>
-                    </ul>
+            </div>
+            <span id="bannerLt">&lt;</span><span id="bannerGt">&gt;</span>
+            <ul id="bannerUL">
+                <li></li>
+                <li></li>
+            </ul>
         </div>
         <div id="listBanner">
             <div class="listBanner-wrap con-wrap">
@@ -288,11 +291,11 @@
         <div class="activity-wrap con-wrap">
             <div class="activity_content">
                 <h4>
-                    <img src="./images/index/美妆.jpg" alt="">
+                    <img src="./images/redPackage_03.jpg" alt="">
                 </h4>
                 <h5>
                     <a href="02-goods.html">
-                        <img src="./images/index/美妆.jpg" alt="">
+                        <img src="./images/redPackageImgs_03.jpg" alt="">
                     </a>
                     <a href="#">
                         <span>双头雾面唇膏&nbsp;豆沙色</span>
@@ -301,7 +304,7 @@
                 </h5>
                 <h5>
                     <a href="#">
-                        <img src="./images/index/美妆.jpg" alt="">
+                        <img src="./images/redPackageImgs_05.jpg" alt="">
                     </a>
                     <a href="#">
                         <span>双头雾面唇膏&nbsp;豆沙色</span>
@@ -310,7 +313,7 @@
                 </h5>
                 <h5>
                     <a href="#">
-                        <img src="./images/index/美妆.jpg" alt="">
+                        <img src="./images/redPackageImgs_07.jpg" alt="">
                     </a>
                     <a href="#">
                         <span>双头雾面唇膏&nbsp;豆沙色</span>
@@ -319,7 +322,7 @@
                 </h5>
                 <h5>
                     <a href="#">
-                        <img src="./images/index/美妆.jpg" alt="">
+                        <img src="./images/redPackageImgs_09.jpg" alt="">
                     </a>
                     <a href="#">
                         <span>双头雾面唇膏&nbsp;豆沙色</span>
@@ -831,3 +834,5 @@
 </body>
 
 </html>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/index.js"></script>

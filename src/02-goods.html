@@ -250,13 +250,13 @@
                     <a href="#">眼部护理<i class="iconfont icon-shangjiantou"></i></a><span>&nbsp;&gt;&nbsp;</span>
                     <a href="#">眼膜<i class="iconfont icon-shangjiantou"></i></a><span>&nbsp;&gt;&nbsp;</span>
                     <a href="#">Spa treatment<i class="iconfont icon-shangjiantou"></i></a><span>&nbsp;&gt;&nbsp;</span>
-                    <span>【眼膜中的爱马仕 眼部小熨斗】Spa treatment HAS蛇毒保湿眼膜60片</span>
+                    <span class="goodsName"></span>
         </div>
     </div>
     <div class="goods_con">
         <div class="goods_imgPlate">
             <div class="goods_imgBox">
-                <img src="./images/goods/show01.jpg" alt="">
+                <img id="goodsImg" src="" alt="" id="goodsimg">
             </div>
             <div>
                 <aside>
@@ -272,17 +272,17 @@
         </div>
         <dl class="goods_gtBox">
             <dt>
-                <p>日本 | Spa treatment</p>
+                <p id="goodsplace"></p>
                 <div><a href="#">自营|品牌自采</a></div>
             </dt>
             <dt>
-                <h3>【眼膜中的爱马仕 眼部小熨斗】Spa treatment HAS蛇毒保湿眼膜60片</h3>
+                <h3 class="goodsName"></h3>
                 <p>火爆朋友圈的日本蛇毒眼膜！对眼部细纹say no！添加了抽取液HAS，滋润肌肤，强力对抗眼纹，眼袋，黑眼圈，暗沉干燥等问题，同时也作用于改善法令纹！比老版蛇毒眼膜更注重于提高眼部细胞自身的生长能力！</p>
             </dt>
             <dt>
                 <div>
                     <img src="./images/goods/show05.png" alt="">
-                    <span>￥209</span>
+                    <span id="goodsActPrice"></span>
                 </div>
                 <h4>
                     <p>5月5日 0：00开抢</p>
@@ -293,14 +293,14 @@
                 <div class="goods_p1">
                     <span>售价</span>
                     <span>新人价</span>
-                    <span>￥229.00</span>
-                    <span>考拉价：￥245</span>
+                    <span id="goodsNewPrice"></span>
+                    <span id="goodsPrice"></span>
                     <span>包邮</span>
                 </div>
                 <div class="goods_p2">
                     <span>分期</span>
                     <span>12期免息</span>
-                    <span>￥19.08</span>
+                    <span id="byStages"></span>
                     <span>*12期免息，预计可免17.18元</span>
                     <span>
                         手机APP专享
@@ -308,7 +308,7 @@
                 </div>
                 <div class="goods_p3">
                     <span>更多组合</span>
-                    <a href="#">1件装|单价229元</a>
+                    <a href="#" id="oneCount"></a>
                     <a href="#">2件装|单价219.5元</a>
                     <span>津贴.每满300减30</span>
                     <span>
@@ -361,12 +361,12 @@
                 <span>
                     98%
                 </span>
-                <a href="#">38071人评价</a>
+                <a href="#" id="beiyong3"></a>
                 <a href="#">3295人晒单</a>
             </dd>
             <dd class="goods_act5">
                 <p>1***8 2020-03-07 14:47:16</p>
-                <p>特别好用，是正品。每天晚上都会使用。放到冰箱储存。冰冰凉凉很舒服。还会回购的。</p>
+                <p id="goodsDesc">特别好用，是正品。每天晚上都会使用。放到冰箱储存。冰冰凉凉很舒服。还会回购的。</p>
             </dd>
         </dl>
         <!-- 侧边栏 -->
@@ -618,3 +618,5 @@
 </body>
 
 </html>
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/02-goods.js"></script>

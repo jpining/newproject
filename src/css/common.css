@@ -250,6 +250,30 @@ a {
     margin-top: 5px;
 }
 
+#oUl{
+    width: 411px;
+    position: absolute;
+    top: 36px;
+    left: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 5;
+}
+#oUl li{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    border-bottom: 1px solid #fff;
+    padding-left: 12px;
+}
+#oUl li a{
+    color: #fff;
+    font-size: 18px;
+}
+#oUl li a:hover{
+    color: #ff1025;
+}
+
 .logo_bottomBox>div:nth-of-type(1) {
     width: 164px;
     height: 100%;
